@@ -1,0 +1,11 @@
+@use '/src/styles/common/color.scss' as c;
+@use '/src/styles/common/font.scss' as f;
+
+.default {
+  font-size: f.$font-size-xs;
+  transition: all 0.5s;
+
+  &:hover {
+    color: c.$color-primary;
+  }
+}

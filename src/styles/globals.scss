@@ -1,8 +1,10 @@
+@use '/src/styles/common/color.scss' as c;
+
 html,
 body {
   font-family:
     -apple-system,
-    BlinkMacSystemFont,
+    'Hiragino Kaku Gothic ProN' BlinkMacSystemFont,
     'Segoe UI',
     Roboto,
     Oxygen,
@@ -23,4 +25,19 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+a,
+b,
+p,
+i,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+span {
+  color: c.$color-text;
 }
